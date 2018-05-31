@@ -26,13 +26,13 @@ function draw() {
   background(10);
 
   //up level
-  if (ship.score >= 50) {
+  if (ship.score >= 100) {
     ship.level = 2; 
   }
-  if (ship.score >= 60) {
+  if (ship.score >= 200) {
     ship.level = 3;
   }
-  if (ship.score >= 70) {
+  if (ship.score >= 400) {
     ship.level = 4;
   }
   
